@@ -3,7 +3,7 @@ module Display
   BOXWIDTH = 15
   BOXHEIGHT= 10
   def self.draw(text)
-    print text
+    puts text
   end
 
   def self.clear_screen!

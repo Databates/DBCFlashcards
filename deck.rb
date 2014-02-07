@@ -22,7 +22,7 @@ class Deck
 
     holder.each_with_index do |item, index|
       if index % 2 == 0 && index != 0
-        cards << Card.new(holder[index - 1], holder[index])
+        cards << Card.new(holder[index + 1], holder[index])
       end
     end
   end

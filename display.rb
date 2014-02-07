@@ -10,7 +10,7 @@ module Display
   end
 
   def self.reputs(str = '')
-    puts "\e[0K" + str
+    puts "\e[2F\e[J" + str
   end
 
   def self.move_cursor_to_home!
